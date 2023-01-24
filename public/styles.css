@@ -169,11 +169,9 @@ h2{
   All sizes are in em - therefore
   changing the font-size here
   will change the size of the switch.
-  See .rocker-small below as example.
   */
   font-size: 1em;
   font-family: 'Allerta Stencil';
-  /* font-weight: bold; */
   text-align: center;
   text-transform: uppercase;
   color: #888;

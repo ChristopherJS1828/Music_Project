@@ -48,7 +48,6 @@ keys.forEach(key => {
 })
 
 recordButton.addEventListener('click', toggleRecording)
-// saveButton.addEventListener('click', saveSong)
 playButton.addEventListener('click', playSong)
 
 document.addEventListener('keydown', e => {
@@ -113,9 +112,3 @@ function recordNote(note) {
     startTime: Date.now() - recordingStartTime
   })
 }
-
-// function saveSong() {
-//   axios.post('/songs', {songNotes: songNotes}).then(res =>{
-//     console.log(res.data)
-//   })
-// }
